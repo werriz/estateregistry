@@ -40,7 +40,8 @@ http://localhost:8080/swagger-ui.html
 
 ## Tests
 
-There are three unit tests for each Controller
+There are three unit tests for each Controller.
+
 Code Coverage is ~90%
 
 ## Built With
