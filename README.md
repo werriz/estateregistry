@@ -24,18 +24,18 @@ There should be _pom.xml_ file
 Run Maven clean install command
 
 ```
-/mvn clean install/
+mvn clean install
 ```
 
 Run Spring Boot run command
 ```
-/mvn spring-boot:run/
+mvn spring-boot:run
 ```
 
 Open your browser and enter following address:
 
 ```
-/http://localhost:8080/swagger-ui.html/
+http://localhost:8080/swagger-ui.html
 ```
 
 ## Tests
