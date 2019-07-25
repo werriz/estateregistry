@@ -29,6 +29,7 @@ public class SearchEstatesController {
 
 	@GetMapping("/similar/{estateId}")
 	public ResponseEntity<List<EstatePropertyForm>> getSimilarEstates(@PathVariable final Long estateId) {
+		logger.trace("entry getSimilarEstates, estateId='{}'", estateId);
 		final List<EstatePropertyForm> similarEstates = service.searchSimilarEstates(estateId);
 
 		return ResponseEntity.ok(similarEstates);

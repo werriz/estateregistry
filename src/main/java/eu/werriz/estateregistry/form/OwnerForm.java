@@ -2,7 +2,6 @@ package eu.werriz.estateregistry.form;
 
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
-import java.util.List;
 
 public class OwnerForm {
 

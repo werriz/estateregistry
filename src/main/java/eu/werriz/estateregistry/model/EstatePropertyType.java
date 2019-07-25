@@ -8,9 +8,9 @@ public enum EstatePropertyType
 	COMMERCIAL(3d),
 	FARMLAND(1d);
 
-	private Double rate;
+	private final Double rate;
 
-	EstatePropertyType(Double rate) {
+	EstatePropertyType(final Double rate) {
 		this.rate = rate;
 	}
 
